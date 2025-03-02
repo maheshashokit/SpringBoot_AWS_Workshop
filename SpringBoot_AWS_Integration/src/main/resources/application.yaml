@@ -1,0 +1,12 @@
+cloud:
+  aws:
+    bucketName: sbmsworkshop
+    account:
+      secretKey: <<your secretKey of your AWS Account>>
+      region: ap-south-1
+      accessKey: <<your accessKey of your AWS Account>>
+spring:
+  application:
+    name: SpringBoot_AWS_Integration
+server:
+  port: 9191
